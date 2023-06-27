@@ -9,7 +9,7 @@ const app = express()
 
 app.use(express.json())
 
-app.use(express.urlecoded({extended:true}))
+app.use(express.Urlencoded({extended:true}))
 
 app.use(cors())
 
